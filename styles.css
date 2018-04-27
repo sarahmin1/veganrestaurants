@@ -18,7 +18,23 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
-  font-size: 16px;
+  font-size: 22px;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 75px;
+  font-family: 'Abel', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font: #87ceeb;
 }
 
 .container {
@@ -27,6 +43,15 @@ html, body {
   margin: 0 auto;
   /* centers content on the page */
   padding: 5px;
+}
+
+.container img {
+  max-width: 980px;
+  display: block;
+}
+
+.filter {
+  /* float: left; */
 }
 
 .item {
