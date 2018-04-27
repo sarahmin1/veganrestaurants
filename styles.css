@@ -46,8 +46,8 @@ h4 {
 }
 
 .container img {
-  max-width: 980px;
   display: block;
+  width: 100%;
 }
 
 .filter {
