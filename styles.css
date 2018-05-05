@@ -17,12 +17,12 @@ You will find this is far easier than the opposite task of using CSS to cram you
 }
 
 html, body {
-  /* Sets default font-size to 16px, ensuring 1em = 16px; */
+  /* Sets default font-size to 22px, ensuring 1em = 22px; */
   font-size: 22px;
 }
 
 body {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 75px;
   font-family: 'Abel', sans-serif;
 }
@@ -33,7 +33,7 @@ h1 {
   text-align: center;
 }
 
-h4 {
+h3, h4 {
   color: #00008b;
 }
 
@@ -42,12 +42,20 @@ h4 {
   /* So that it will be responsive */
   margin: 0 auto;
   /* centers content on the page */
-  padding: 5px;
+  /* padding: 5px; */
+  padding: 1em;
 }
 
 .container img {
   display: block;
   width: 100%;
+}
+
+.story {
+  /* width: 75%; */
+  margin: 0 auto;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .filter {
@@ -89,6 +97,11 @@ select {
     width: 33%;
     /* Update page to have three items sitting next to each other instead of two */
     min-height: 310px;
+  }
+  .story {
+    width: 75%;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   select {
     width: 33%;
